@@ -6,9 +6,11 @@ Tecnologías Utilizadas
 Java 17, Spring Boot 3, Maven, Lombok, JUnit y Mockito (para pruebas unitarias), Spring Security
 
 Instalación y Ejecución
-Clonar el repositorio: git clone https://github.com/dapontece/employee-management.git
-Navegar al directorio del proyecto: cd employee-management
-Compilar y ejecutar la aplicación: mvn clean install && mvn spring-boot:run
+Clonar el repositorio: git clone https://github.com/SantiagoCardenasR/EmployeeTrackerDemo.git
+Navegar al directorio del proyecto: cd employeeTracker
+Compilar y empaquetar la aplicación: mvn clean package
+Colocar el archivo war en el servidor Wildfly bajo la caprta standalone\deployments
+Ejecutar el servidor Wildfly
 Acceder a la API en: http://localhost:8080/
 
 Endpoints Principales
